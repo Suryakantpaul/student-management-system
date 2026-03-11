@@ -1,5 +1,3 @@
-// components/Loading.jsx
-// Displays a full-screen loading overlay while data is being "fetched"
 
 const Loading = () => {
   return (

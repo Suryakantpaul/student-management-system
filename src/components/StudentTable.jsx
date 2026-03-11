@@ -1,6 +1,4 @@
-// components/StudentTable.jsx
-// Displays the students table with sorting, search filtering,
-// edit/delete actions, and an Excel download button.
+
 
 import { useState } from 'react';
 import { exportToExcel } from '../utils/exportExcel';

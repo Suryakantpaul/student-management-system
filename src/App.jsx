@@ -1,6 +1,4 @@
-// App.jsx
-// Root component. Manages global state: students list, loading,
-// editing target, and toast notifications.
+
 
 import { useState, useEffect } from 'react';
 import StudentForm  from './components/StudentForm';
@@ -8,13 +6,13 @@ import StudentTable from './components/StudentTable';
 import Loading      from './components/Loading';
 import './styles.css';
 
-// ── Initial sample data ─────────────────────────────────────
+// ── Initial sample data 
 const INITIAL_STUDENTS = [
-  { id: 1, name: 'Alice Johnson',   email: 'alice@example.com',   age: 21 },
-  { id: 2, name: 'Bob Martinez',    email: 'bob@example.com',     age: 23 },
-  { id: 3, name: 'Clara Nguyen',    email: 'clara@example.com',   age: 20 },
-  { id: 4, name: 'David Kim',       email: 'david@example.com',   age: 22 },
-  { id: 5, name: 'Eva Petrova',     email: 'eva@example.com',     age: 19 },
+  { id: 1, name: 'Aarav Sharma',    email: 'aarav.sharma@example.com',    age: 21 },
+  { id: 2, name: 'Priya Patel',     email: 'priya.patel@example.com',     age: 23 },
+  { id: 3, name: 'Rohan Verma',     email: 'rohan.verma@example.com',     age: 20 },
+  { id: 4, name: 'Sneha Iyer',      email: 'sneha.iyer@example.com',      age: 22 },
+  { id: 5, name: 'Karan Mehta',     email: 'karan.mehta@example.com',     age: 19 },
 ];
 
 // ── localStorage helpers ────────────────────────────────────

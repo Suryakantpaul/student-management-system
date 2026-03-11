@@ -1,6 +1,4 @@
-// components/StudentForm.jsx
-// Handles both Add and Edit modes for student records.
-// Includes full validation with inline error messages.
+
 
 import { useState, useEffect } from 'react';
 
@@ -135,7 +133,7 @@ const StudentForm = ({ editingStudent, onSubmit, onCancel }) => {
               name="name"
               type="text"
               className={`form-input ${errors.name ? 'error' : ''}`}
-              placeholder="e.g. Alice Johnson"
+              placeholder="e.g. Aarav Sharma"
               value={fields.name}
               onChange={handleChange}
               autoComplete="off"
@@ -157,7 +155,7 @@ const StudentForm = ({ editingStudent, onSubmit, onCancel }) => {
               name="email"
               type="email"
               className={`form-input ${errors.email ? 'error' : ''}`}
-              placeholder="e.g. alice@example.com"
+              placeholder="e.g. aarav.sharma@example.com"
               value={fields.email}
               onChange={handleChange}
               autoComplete="off"
